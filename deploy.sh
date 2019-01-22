@@ -18,7 +18,7 @@ elif [ $# -eq 1 ]; then
   STAGE=$1
 
   npm install
-  'node_modules/.bin/sls' deploy -s $STAGE -r us-east-1
+  'node_modules/.bin/sls' deploy -s $STAGE -r us-west-2
 else
   instruction
   exit 1
